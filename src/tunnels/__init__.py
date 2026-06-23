@@ -1,4 +1,4 @@
-"""Tunnel implementations"""
+"""Enhanced tunnel implementations with gaming support"""
 
 from .base import BaseTunnel
 from .eoip import EoIPTunnel
@@ -9,6 +9,7 @@ from .sit import SITTunnel
 from .wireguard import WireGuardTunnel
 from .geneve import GeneveTunnel
 from .vxlan import VXLANTunnel
+from .gaming import GamingTunnel
 
 __all__ = [
     'BaseTunnel',
@@ -21,4 +22,5 @@ __all__ = [
     'WireGuardTunnel',
     'GeneveTunnel',
     'VXLANTunnel',
+    'GamingTunnel',
 ]
